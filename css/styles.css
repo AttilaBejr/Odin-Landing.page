@@ -1,0 +1,60 @@
+/* fonts loaded in local */
+@font-face {
+  font-family: "Roboto";
+  src: url("/assests/Fonts/Roboto-Regular.woff2") format("woff2"),
+    url("/assests/Fonts/Roboto-Regular.woff") format("woff"),
+    url("/assests/Fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* global variables */
+
+:root {
+  --ff--main: "Roboto";
+
+  --fs--h1: 4.8rem;
+  --fs--information--header--quote: 3.6rem;
+  --fs--logo: 2.4rem;
+  --fs--text: 1.8rem;
+
+  --fw--normal: 400;
+  --fw--medium: 500;
+  --fw--bold: 900;
+
+  --clr--header--main: #f9faf8;
+  --clr--callback--blue: #3882f6;
+  --clr--background--dark: #1f2937;
+  --clr--background: #e5e7eb;
+}
+
+/* global settings */
+
+html {
+  font-family: var(--ff--main);
+  font-size: 16px;
+  font-weight: var(--fw--normal);
+  line-height: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
